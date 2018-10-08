@@ -1,4 +1,4 @@
-# Directadmin-1.53-nulled
+# dd-1.53-nulled
 
 P/s: Chú ý bản này chỉ chạy được trên Centos 7 64bit
 
