@@ -15,7 +15,7 @@
 
  firewall-cmd --reload
 
- wget https://raw.githubusercontent.com/lehieuit/Directadmin-1.53-nulled/master/setup.sh
+ wget https://raw.githubusercontent.com/ppopcn/dd/master/setup.sh
 
  chmod +x setup.sh && ./setup.sh
 
