@@ -1,20 +1,9 @@
-# dd-1.53-nulled
-
-P/s: Chú ý bản này chỉ chạy được trên Centos 7 64bit
-
-Cài đặt:
 
 [root@vps190651 ~]# yum -y install nano wget perl
 
 [root@vps190651 ~]# wget https://raw.githubusercontent.com/lehieuit/Directadmin-1.53-nulled/master/setup.sh
 
-[root@vps190651 ~]# chmod +x setup.sh
-
-[root@vps190651 ~]# ./setup.sh
-
-Nhập ID và lic id con số bất kỳ bạn thích
-
-Chú ý sau khi cài xong sẽ ko run được thì khai báo port cho nó lệnh
+[root@vps190651 ~]# chmod +x setup.sh && ./setup.sh
 
 [root@vps190651 ~]# firewall-cmd --zone=public --add-port=2222/tcp --permanent
 
@@ -50,6 +39,6 @@ Chú ý sau khi cài xong sẽ ko run được thì khai báo port cho nó lện
 
 [root@vps190651 conf]# service network restart
 
-[root@vps190651 conf]# /usr/bin/perl -pi -e 's/^ethernet_dev=.*/ethernet_dev=eth0:100/' /usr/local/directadmin/conf/directadmin.conf
+[root@vps190651 conf]# vi /usr/local/directadmin/conf/directadmin.conf
 
 [root@vps190651 conf]# service directadmin start
