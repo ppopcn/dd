@@ -1,5 +1,5 @@
 
- yum -y install nano wget perl
+ yum -y install nano wget perl gcc gcc-c++
 
  firewall-cmd --zone=public --add-port=2222/tcp --permanent
 
