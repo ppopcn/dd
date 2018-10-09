@@ -1,4 +1,4 @@
-
+```
  yum -y install nano wget perl gcc gcc-c++
  
  yum -y install psmisc net-tools systemd-devel libdb-devel 
@@ -46,3 +46,4 @@
  vi /usr/local/directadmin/conf/directadmin.conf
 
  service directadmin restart
+```
