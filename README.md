@@ -1,10 +1,6 @@
 
  yum -y install nano wget perl
 
- wget https://raw.githubusercontent.com/lehieuit/Directadmin-1.53-nulled/master/setup.sh
-
- chmod +x setup.sh && ./setup.sh
-
  firewall-cmd --zone=public --add-port=2222/tcp --permanent
 
  firewall-cmd --zone=public --add-port=21/tcp --permanent
@@ -14,6 +10,10 @@
  firewall-cmd --zone=public --add-port=25/tcp --permanent
 
  firewall-cmd --reload
+
+ wget https://raw.githubusercontent.com/lehieuit/Directadmin-1.53-nulled/master/setup.sh
+
+ chmod +x setup.sh && ./setup.sh
 
  systemctl restart directadmin
 
