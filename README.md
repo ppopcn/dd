@@ -1,5 +1,6 @@
 
  yum -y install nano wget perl gcc gcc-c++
+ yum -y install psmisc net-tools systemd-devel libdb-devel perl-DBI xfsprogs rsyslog logrotate crontabs file
 
  firewall-cmd --zone=public --add-port=2222/tcp --permanent
 
