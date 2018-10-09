@@ -45,4 +45,4 @@
 
  vi /usr/local/directadmin/conf/directadmin.conf
 
- service directadmin start
+ service directadmin restart
